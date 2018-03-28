@@ -1,0 +1,819 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		600C7A3E2068F0F100F329FA /* UIViewController+YYExchangeMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 600C7A3D2068F0F100F329FA /* UIViewController+YYExchangeMessage.m */; };
+		602BEDD4201BFAD000C5FE75 /* YYSqliteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 602BEDD3201BFAD000C5FE75 /* YYSqliteManager.m */; };
+		602BEDD6201C023F00C5FE75 /* db.sql in Resources */ = {isa = PBXBuildFile; fileRef = 602BEDD5201BFF6300C5FE75 /* db.sql */; };
+		6186110E1F95E2F600E4E8B4 /* JJStockScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6186110D1F95E2F600E4E8B4 /* JJStockScrollView.m */; };
+		61F13E7A1F91F670002F4681 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 61F13E791F91F670002F4681 /* AppDelegate.m */; };
+		61F13E7D1F91F670002F4681 /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61F13E7C1F91F670002F4681 /* DemoViewController.m */; };
+		61F13E821F91F670002F4681 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61F13E811F91F670002F4681 /* Assets.xcassets */; };
+		61F13E881F91F670002F4681 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 61F13E871F91F670002F4681 /* main.m */; };
+		61F13E921F91F670002F4681 /* StockViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 61F13E911F91F670002F4681 /* StockViewTests.m */; };
+		61F13E9D1F91F670002F4681 /* StockViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 61F13E9C1F91F670002F4681 /* StockViewUITests.m */; };
+		61F13EAF1F91F6D4002F4681 /* JJStockViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 61F13EAB1F91F6D3002F4681 /* JJStockViewCell.m */; };
+		61F13EB01F91F6D4002F4681 /* JJStockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 61F13EAD1F91F6D4002F4681 /* JJStockView.m */; };
+		70F0BD727EDB2CFE7CCE7072 /* libPods-JJStockViewTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D579159959A2CF99DD7E26A /* libPods-JJStockViewTests.a */; };
+		71267795C9B29783716C5E78 /* libPods-JJStockViewUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 938D340BBE18CC63E2610866 /* libPods-JJStockViewUITests.a */; };
+		ECE27C7C201B1CA6008937F4 /* YYStockModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE27C7B201B1CA5008937F4 /* YYStockModel.m */; };
+		ECE27C7F201B2670008937F4 /* YYStockDB.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE27C7E201B2670008937F4 /* YYStockDB.m */; };
+		ECE27C82201B26A9008937F4 /* NBBaseDB.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE27C81201B26A9008937F4 /* NBBaseDB.m */; };
+		F049CF1F98F92CB30B672E91 /* libPods-JJStockView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 80107E19455DDF86A3D66E1D /* libPods-JJStockView.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		61F13E8E1F91F670002F4681 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61F13E6D1F91F670002F4681 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61F13E741F91F670002F4681;
+			remoteInfo = StockView;
+		};
+		61F13E991F91F670002F4681 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61F13E6D1F91F670002F4681 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61F13E741F91F670002F4681;
+			remoteInfo = StockView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		19F2AC458ADA1D1FA90DAE58 /* Pods-JJStockView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JJStockView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JJStockView/Pods-JJStockView.debug.xcconfig"; sourceTree = "<group>"; };
+		1C315686C0F51371D291958F /* Pods-JJStockViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JJStockViewTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JJStockViewTests/Pods-JJStockViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3B6604A0E66A9BAAC44479E7 /* Pods-JJStockViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JJStockViewUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JJStockViewUITests/Pods-JJStockViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4D579159959A2CF99DD7E26A /* libPods-JJStockViewTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JJStockViewTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		600C7A3C2068F0F100F329FA /* UIViewController+YYExchangeMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+YYExchangeMessage.h"; sourceTree = "<group>"; };
+		600C7A3D2068F0F100F329FA /* UIViewController+YYExchangeMessage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+YYExchangeMessage.m"; sourceTree = "<group>"; };
+		601A3D2D206B22D7004C1A6E /* XMGModelTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMGModelTool.h; sourceTree = "<group>"; };
+		601A3D2E206B22D7004C1A6E /* XMGSqliteTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMGSqliteTool.h; sourceTree = "<group>"; };
+		601A3D2F206B22D7004C1A6E /* XMGSqliteTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMGSqliteTool.m; sourceTree = "<group>"; };
+		601A3D30206B22D7004C1A6E /* XMGTableTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMGTableTool.m; sourceTree = "<group>"; };
+		601A3D31206B22D8004C1A6E /* XMGTableTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMGTableTool.h; sourceTree = "<group>"; };
+		601A3D32206B22D8004C1A6E /* XMGModelProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMGModelProtocol.h; sourceTree = "<group>"; };
+		601A3D33206B22D8004C1A6E /* XMGSqliteModelTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMGSqliteModelTool.m; sourceTree = "<group>"; };
+		601A3D34206B22D8004C1A6E /* XMGModelTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMGModelTool.m; sourceTree = "<group>"; };
+		601A3D35206B22D8004C1A6E /* XMGSqliteModelTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMGSqliteModelTool.h; sourceTree = "<group>"; };
+		602BEDD2201BFAD000C5FE75 /* YYSqliteManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYSqliteManager.h; sourceTree = "<group>"; };
+		602BEDD3201BFAD000C5FE75 /* YYSqliteManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYSqliteManager.m; sourceTree = "<group>"; };
+		602BEDD5201BFF6300C5FE75 /* db.sql */ = {isa = PBXFileReference; lastKnownFileType = text; path = db.sql; sourceTree = "<group>"; };
+		6186110C1F95E2F600E4E8B4 /* JJStockScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJStockScrollView.h; sourceTree = "<group>"; };
+		6186110D1F95E2F600E4E8B4 /* JJStockScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJStockScrollView.m; sourceTree = "<group>"; };
+		61F13E751F91F670002F4681 /* JJStockView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JJStockView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		61F13E781F91F670002F4681 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		61F13E791F91F670002F4681 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		61F13E7B1F91F670002F4681 /* DemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
+		61F13E7C1F91F670002F4681 /* DemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
+		61F13E811F91F670002F4681 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		61F13E861F91F670002F4681 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61F13E871F91F670002F4681 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		61F13E8D1F91F670002F4681 /* JJStockViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JJStockViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		61F13E911F91F670002F4681 /* StockViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StockViewTests.m; sourceTree = "<group>"; };
+		61F13E931F91F670002F4681 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61F13E981F91F670002F4681 /* JJStockViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JJStockViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		61F13E9C1F91F670002F4681 /* StockViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StockViewUITests.m; sourceTree = "<group>"; };
+		61F13E9E1F91F670002F4681 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61F13EAB1F91F6D3002F4681 /* JJStockViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJStockViewCell.m; sourceTree = "<group>"; };
+		61F13EAC1F91F6D3002F4681 /* JJStockViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJStockViewCell.h; sourceTree = "<group>"; };
+		61F13EAD1F91F6D4002F4681 /* JJStockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJStockView.m; sourceTree = "<group>"; };
+		61F13EAE1F91F6D4002F4681 /* JJStockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJStockView.h; sourceTree = "<group>"; };
+		80107E19455DDF86A3D66E1D /* libPods-JJStockView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JJStockView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		938D340BBE18CC63E2610866 /* libPods-JJStockViewUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JJStockViewUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB8B52F57AEE8DEACC81F7D5 /* Pods-JJStockViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JJStockViewTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JJStockViewTests/Pods-JJStockViewTests.release.xcconfig"; sourceTree = "<group>"; };
+		AE637C44FD1F91609C9DE639 /* Pods-JJStockViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JJStockViewUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JJStockViewUITests/Pods-JJStockViewUITests.release.xcconfig"; sourceTree = "<group>"; };
+		ECE27C7A201B1CA5008937F4 /* YYStockModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYStockModel.h; sourceTree = "<group>"; };
+		ECE27C7B201B1CA5008937F4 /* YYStockModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYStockModel.m; sourceTree = "<group>"; };
+		ECE27C7D201B2670008937F4 /* YYStockDB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYStockDB.h; sourceTree = "<group>"; };
+		ECE27C7E201B2670008937F4 /* YYStockDB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYStockDB.m; sourceTree = "<group>"; };
+		ECE27C80201B26A9008937F4 /* NBBaseDB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBBaseDB.h; sourceTree = "<group>"; };
+		ECE27C81201B26A9008937F4 /* NBBaseDB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBBaseDB.m; sourceTree = "<group>"; };
+		EDEDB798C809C485D6BABB61 /* Pods-JJStockView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JJStockView.release.xcconfig"; path = "Pods/Target Support Files/Pods-JJStockView/Pods-JJStockView.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61F13E721F91F670002F4681 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F049CF1F98F92CB30B672E91 /* libPods-JJStockView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61F13E8A1F91F670002F4681 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70F0BD727EDB2CFE7CCE7072 /* libPods-JJStockViewTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61F13E951F91F670002F4681 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71267795C9B29783716C5E78 /* libPods-JJStockViewUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		601A3D2C206B22CC004C1A6E /* SqliteManager */ = {
+			isa = PBXGroup;
+			children = (
+				601A3D32206B22D8004C1A6E /* XMGModelProtocol.h */,
+				601A3D2D206B22D7004C1A6E /* XMGModelTool.h */,
+				601A3D34206B22D8004C1A6E /* XMGModelTool.m */,
+				601A3D35206B22D8004C1A6E /* XMGSqliteModelTool.h */,
+				601A3D33206B22D8004C1A6E /* XMGSqliteModelTool.m */,
+				601A3D2E206B22D7004C1A6E /* XMGSqliteTool.h */,
+				601A3D2F206B22D7004C1A6E /* XMGSqliteTool.m */,
+				601A3D31206B22D8004C1A6E /* XMGTableTool.h */,
+				601A3D30206B22D7004C1A6E /* XMGTableTool.m */,
+			);
+			path = SqliteManager;
+			sourceTree = "<group>";
+		};
+		61F13E6C1F91F670002F4681 = {
+			isa = PBXGroup;
+			children = (
+				61F13E771F91F670002F4681 /* JJStockView */,
+				61F13E901F91F670002F4681 /* StockViewTests */,
+				61F13E9B1F91F670002F4681 /* StockViewUITests */,
+				61F13E761F91F670002F4681 /* Products */,
+				7D7866665DC07C8CDA3B554C /* Pods */,
+				C846DBEEE683B67C5FACDA7B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		61F13E761F91F670002F4681 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61F13E751F91F670002F4681 /* JJStockView.app */,
+				61F13E8D1F91F670002F4681 /* JJStockViewTests.xctest */,
+				61F13E981F91F670002F4681 /* JJStockViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		61F13E771F91F670002F4681 /* JJStockView */ = {
+			isa = PBXGroup;
+			children = (
+				601A3D2C206B22CC004C1A6E /* SqliteManager */,
+				ECE27C80201B26A9008937F4 /* NBBaseDB.h */,
+				ECE27C81201B26A9008937F4 /* NBBaseDB.m */,
+				ECE27C7A201B1CA5008937F4 /* YYStockModel.h */,
+				ECE27C7D201B2670008937F4 /* YYStockDB.h */,
+				ECE27C7E201B2670008937F4 /* YYStockDB.m */,
+				ECE27C7B201B1CA5008937F4 /* YYStockModel.m */,
+				61F13EAA1F91F6B1002F4681 /* Source */,
+				61F13E781F91F670002F4681 /* AppDelegate.h */,
+				61F13E791F91F670002F4681 /* AppDelegate.m */,
+				61F13E7B1F91F670002F4681 /* DemoViewController.h */,
+				61F13E7C1F91F670002F4681 /* DemoViewController.m */,
+				61F13E811F91F670002F4681 /* Assets.xcassets */,
+				61F13E861F91F670002F4681 /* Info.plist */,
+				61F13E871F91F670002F4681 /* main.m */,
+				602BEDD2201BFAD000C5FE75 /* YYSqliteManager.h */,
+				602BEDD3201BFAD000C5FE75 /* YYSqliteManager.m */,
+				602BEDD5201BFF6300C5FE75 /* db.sql */,
+				600C7A3C2068F0F100F329FA /* UIViewController+YYExchangeMessage.h */,
+				600C7A3D2068F0F100F329FA /* UIViewController+YYExchangeMessage.m */,
+			);
+			path = JJStockView;
+			sourceTree = "<group>";
+		};
+		61F13E901F91F670002F4681 /* StockViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				61F13E911F91F670002F4681 /* StockViewTests.m */,
+				61F13E931F91F670002F4681 /* Info.plist */,
+			);
+			path = StockViewTests;
+			sourceTree = "<group>";
+		};
+		61F13E9B1F91F670002F4681 /* StockViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				61F13E9C1F91F670002F4681 /* StockViewUITests.m */,
+				61F13E9E1F91F670002F4681 /* Info.plist */,
+			);
+			path = StockViewUITests;
+			sourceTree = "<group>";
+		};
+		61F13EAA1F91F6B1002F4681 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				61F13EAE1F91F6D4002F4681 /* JJStockView.h */,
+				61F13EAD1F91F6D4002F4681 /* JJStockView.m */,
+				61F13EAC1F91F6D3002F4681 /* JJStockViewCell.h */,
+				61F13EAB1F91F6D3002F4681 /* JJStockViewCell.m */,
+				6186110C1F95E2F600E4E8B4 /* JJStockScrollView.h */,
+				6186110D1F95E2F600E4E8B4 /* JJStockScrollView.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		7D7866665DC07C8CDA3B554C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				19F2AC458ADA1D1FA90DAE58 /* Pods-JJStockView.debug.xcconfig */,
+				EDEDB798C809C485D6BABB61 /* Pods-JJStockView.release.xcconfig */,
+				1C315686C0F51371D291958F /* Pods-JJStockViewTests.debug.xcconfig */,
+				AB8B52F57AEE8DEACC81F7D5 /* Pods-JJStockViewTests.release.xcconfig */,
+				3B6604A0E66A9BAAC44479E7 /* Pods-JJStockViewUITests.debug.xcconfig */,
+				AE637C44FD1F91609C9DE639 /* Pods-JJStockViewUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C846DBEEE683B67C5FACDA7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				80107E19455DDF86A3D66E1D /* libPods-JJStockView.a */,
+				4D579159959A2CF99DD7E26A /* libPods-JJStockViewTests.a */,
+				938D340BBE18CC63E2610866 /* libPods-JJStockViewUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		61F13E741F91F670002F4681 /* JJStockView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61F13EA11F91F670002F4681 /* Build configuration list for PBXNativeTarget "JJStockView" */;
+			buildPhases = (
+				453226F7F53ADFFDE83883C1 /* [CP] Check Pods Manifest.lock */,
+				61F13E711F91F670002F4681 /* Sources */,
+				61F13E721F91F670002F4681 /* Frameworks */,
+				61F13E731F91F670002F4681 /* Resources */,
+				F4D5C14A0C8DDC4BA1CBB936 /* [CP] Embed Pods Frameworks */,
+				3E6AB5FDB2E370E3D9C6286B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JJStockView;
+			productName = StockView;
+			productReference = 61F13E751F91F670002F4681 /* JJStockView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		61F13E8C1F91F670002F4681 /* JJStockViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61F13EA41F91F670002F4681 /* Build configuration list for PBXNativeTarget "JJStockViewTests" */;
+			buildPhases = (
+				C7709841103F12F6ABDCB98F /* [CP] Check Pods Manifest.lock */,
+				61F13E891F91F670002F4681 /* Sources */,
+				61F13E8A1F91F670002F4681 /* Frameworks */,
+				61F13E8B1F91F670002F4681 /* Resources */,
+				1B8AE547F106AB28DEE7A6AC /* [CP] Embed Pods Frameworks */,
+				42E582867980F37F02CEBB33 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61F13E8F1F91F670002F4681 /* PBXTargetDependency */,
+			);
+			name = JJStockViewTests;
+			productName = StockViewTests;
+			productReference = 61F13E8D1F91F670002F4681 /* JJStockViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		61F13E971F91F670002F4681 /* JJStockViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61F13EA71F91F670002F4681 /* Build configuration list for PBXNativeTarget "JJStockViewUITests" */;
+			buildPhases = (
+				5295444B23FD9694BF4EF642 /* [CP] Check Pods Manifest.lock */,
+				61F13E941F91F670002F4681 /* Sources */,
+				61F13E951F91F670002F4681 /* Frameworks */,
+				61F13E961F91F670002F4681 /* Resources */,
+				1CE7547827D17DEEF25E05A3 /* [CP] Embed Pods Frameworks */,
+				489AAFF74677B8B6B2A5A643 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61F13E9A1F91F670002F4681 /* PBXTargetDependency */,
+			);
+			name = JJStockViewUITests;
+			productName = StockViewUITests;
+			productReference = 61F13E981F91F670002F4681 /* JJStockViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		61F13E6D1F91F670002F4681 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Jezz;
+				TargetAttributes = {
+					61F13E741F91F670002F4681 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Manual;
+					};
+					61F13E8C1F91F670002F4681 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 61F13E741F91F670002F4681;
+					};
+					61F13E971F91F670002F4681 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 61F13E741F91F670002F4681;
+					};
+				};
+			};
+			buildConfigurationList = 61F13E701F91F670002F4681 /* Build configuration list for PBXProject "JJStockView" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 61F13E6C1F91F670002F4681;
+			productRefGroup = 61F13E761F91F670002F4681 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61F13E741F91F670002F4681 /* JJStockView */,
+				61F13E8C1F91F670002F4681 /* JJStockViewTests */,
+				61F13E971F91F670002F4681 /* JJStockViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		61F13E731F91F670002F4681 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				602BEDD6201C023F00C5FE75 /* db.sql in Resources */,
+				61F13E821F91F670002F4681 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61F13E8B1F91F670002F4681 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61F13E961F91F670002F4681 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B8AE547F106AB28DEE7A6AC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JJStockViewTests/Pods-JJStockViewTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1CE7547827D17DEEF25E05A3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JJStockViewUITests/Pods-JJStockViewUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E6AB5FDB2E370E3D9C6286B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JJStockView/Pods-JJStockView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		42E582867980F37F02CEBB33 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JJStockViewTests/Pods-JJStockViewTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		453226F7F53ADFFDE83883C1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JJStockView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		489AAFF74677B8B6B2A5A643 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JJStockViewUITests/Pods-JJStockViewUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5295444B23FD9694BF4EF642 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JJStockViewUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7709841103F12F6ABDCB98F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JJStockViewTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4D5C14A0C8DDC4BA1CBB936 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JJStockView/Pods-JJStockView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61F13E711F91F670002F4681 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61F13EB01F91F6D4002F4681 /* JJStockView.m in Sources */,
+				ECE27C7C201B1CA6008937F4 /* YYStockModel.m in Sources */,
+				ECE27C7F201B2670008937F4 /* YYStockDB.m in Sources */,
+				61F13E7D1F91F670002F4681 /* DemoViewController.m in Sources */,
+				600C7A3E2068F0F100F329FA /* UIViewController+YYExchangeMessage.m in Sources */,
+				6186110E1F95E2F600E4E8B4 /* JJStockScrollView.m in Sources */,
+				602BEDD4201BFAD000C5FE75 /* YYSqliteManager.m in Sources */,
+				61F13EAF1F91F6D4002F4681 /* JJStockViewCell.m in Sources */,
+				61F13E881F91F670002F4681 /* main.m in Sources */,
+				ECE27C82201B26A9008937F4 /* NBBaseDB.m in Sources */,
+				61F13E7A1F91F670002F4681 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61F13E891F91F670002F4681 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61F13E921F91F670002F4681 /* StockViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61F13E941F91F670002F4681 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61F13E9D1F91F670002F4681 /* StockViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		61F13E8F1F91F670002F4681 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61F13E741F91F670002F4681 /* JJStockView */;
+			targetProxy = 61F13E8E1F91F670002F4681 /* PBXContainerItemProxy */;
+		};
+		61F13E9A1F91F670002F4681 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61F13E741F91F670002F4681 /* JJStockView */;
+			targetProxy = 61F13E991F91F670002F4681 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		61F13E9F1F91F670002F4681 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		61F13EA01F91F670002F4681 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		61F13EA21F91F670002F4681 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19F2AC458ADA1D1FA90DAE58 /* Pods-JJStockView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = CS3P4Q373F;
+				INFOPLIST_FILE = "$(SRCROOT)/JJStockView/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JJStockView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "ad6513e7-9a07-4302-842d-072aab56d862";
+				PROVISIONING_PROFILE_SPECIFIER = "HJClass-Debug";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		61F13EA31F91F670002F4681 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDEDB798C809C485D6BABB61 /* Pods-JJStockView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/JJStockView/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JJStockView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		61F13EA51F91F670002F4681 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C315686C0F51371D291958F /* Pods-JJStockViewTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StockViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = StockView.StockViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JJStockView.app/JJStockView";
+			};
+			name = Debug;
+		};
+		61F13EA61F91F670002F4681 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB8B52F57AEE8DEACC81F7D5 /* Pods-JJStockViewTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StockViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = StockView.StockViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JJStockView.app/JJStockView";
+			};
+			name = Release;
+		};
+		61F13EA81F91F670002F4681 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B6604A0E66A9BAAC44479E7 /* Pods-JJStockViewUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StockViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = StockView.StockViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StockView;
+			};
+			name = Debug;
+		};
+		61F13EA91F91F670002F4681 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE637C44FD1F91609C9DE639 /* Pods-JJStockViewUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StockViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = StockView.StockViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StockView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		61F13E701F91F670002F4681 /* Build configuration list for PBXProject "JJStockView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61F13E9F1F91F670002F4681 /* Debug */,
+				61F13EA01F91F670002F4681 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61F13EA11F91F670002F4681 /* Build configuration list for PBXNativeTarget "JJStockView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61F13EA21F91F670002F4681 /* Debug */,
+				61F13EA31F91F670002F4681 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61F13EA41F91F670002F4681 /* Build configuration list for PBXNativeTarget "JJStockViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61F13EA51F91F670002F4681 /* Debug */,
+				61F13EA61F91F670002F4681 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61F13EA71F91F670002F4681 /* Build configuration list for PBXNativeTarget "JJStockViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61F13EA81F91F670002F4681 /* Debug */,
+				61F13EA91F91F670002F4681 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 61F13E6D1F91F670002F4681 /* Project object */;
+}
