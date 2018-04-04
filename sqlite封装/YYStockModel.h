@@ -12,6 +12,8 @@
 
 @interface YYStockModel : NSObject
 
+@property (nonatomic,copy) NSString *stock_priceDeta;
+
 @property (nonatomic,copy) NSString *active_fl;
 @property (nonatomic,copy) NSString *adjust_tc;//条件
 @property (nonatomic,copy) NSString *adq_rating;

@@ -22,6 +22,10 @@
     
     [XMGSqliteModelTool createTable:[YYStockModel class] uid:@"MyStock"];
     
+    NSString *currentPath = [NSString stringWithFormat:@"%@",@"./sqlite封装"];
+    NSLog(@"%@",@"./sqlite封装");
+    NSLog(@"%@",currentPath);
+    
 }
 
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
@@ -31,7 +35,7 @@
 
 - (void)readTxt {
     NSError *error = nil;
-    NSString *string = [[NSString alloc] initWithContentsOfFile:@"/Users/pactera/Documents/MyOwnProject/0327.txt" encoding:NSUTF8StringEncoding error:&error];
+    NSString *string = [[NSString alloc] initWithContentsOfFile:@"/Users/pactera/Documents/MyOwnProject/0330.txt" encoding:NSUTF8StringEncoding error:&error];
     ///Users/geduo/Desktop/bad.txt
     //如果有报错，则把报错信息输出来/Users/pactera/Documents/MyOwnProject/0327.txt
     if (error != nil) {
@@ -47,7 +51,7 @@
         YYStockModel *stockModel = [[YYStockModel alloc] init];
         [stockModel setValuesForKeysWithDictionary:modelDict];
         
-        [XMGSqliteModelTool saveOrUpdateModel:stockModel uid:@"MyStock"];
+        [XMGSqliteModelTool saveOrUpdateModel:stockModel uid:@"MyStock_0330"];
 //        [tempArray addObject:stockModel];
     }
     

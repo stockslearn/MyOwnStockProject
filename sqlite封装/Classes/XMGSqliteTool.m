@@ -14,6 +14,8 @@
 
 #define kCachePath @"/Users/pactera/Documents/MyOwnProject"
 
+
+
 @implementation XMGSqliteTool
 
 #pragma mark - 接口
